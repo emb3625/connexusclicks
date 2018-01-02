@@ -20,6 +20,10 @@ Base theme last modified on January 20, 2016
 1.2.3 [7/8/17] - Added dark mode version of discord promo
 1.2.4 [7/8/17] - Attempted to fix dark mode toggle and dark mode discord promo
 1.2.5 [7/8/17] - Removed dark mode toggle and dark mode discord promo after multiple attempts to fix
+1.2.6 [8/26/17] - Changed subreddit name and "users here" message in sidebar
+1.2.7 [8/26/17] - Revert 1.2.6 changes
+1.2.8 [10/31/17] - Reattempt to fix dark mode toggle
+1.2.9 [10/31/17] - Remove dark mode toggle in prep for removal of dark mode buttons in sidebar
 --------------------------------------------------------------------------*/
 
 /*SUBREDDIT LOGO*/
@@ -433,7 +437,7 @@ border-right: 6px solid #00b500 !important;
     background-position: center;
 }
 /*END HEADER*/
-/*DISCORD SIDEBAR LINK BETA*/
+/*DISCORD SIDEBAR LINK*/
 .side a[href*="https://discord.gg/marchingband"] {
     background: url(%%Discord%%) center no-repeat;
     background-size: 275px 45px;
@@ -457,4 +461,4 @@ border-right: 6px solid #00b500 !important;
      background-image: url(%%DiscordHover2x%%);
      background-size: 275px 45px;
   }
-/*END DISCORD SIDEBAR LINK BETA*/
+/*END DISCORD SIDEBAR LINK*/
